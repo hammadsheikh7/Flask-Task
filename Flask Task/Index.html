@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Square Number API</title>
+</head>
+<body>
+    <h1>Square a Number</h1>
+    <form method="POST">
+        <label for="number">Enter a number:</label>
+        <input type="number" name="number" required>
+        <button type="submit">Square</button>
+    </form>
+    {% if result %}
+        <h2>Result: {{ result }}</h2>
+    {% endif %}
+</body>
+</html>
